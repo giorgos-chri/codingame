@@ -21,6 +21,7 @@ class Solution {
         char[] characters = T.toCharArray();
         for (int i = 0; i < H; i++) {
             String ROW = in.nextLine();
+	    //Split the lines to chars and save in a array
             char[] hashTags = ROW.toCharArray();
             int j = 0;
             for(char c : hashTags){
