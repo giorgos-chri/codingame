@@ -25,6 +25,7 @@ class Solution {
 	//Put the temperatures in an array
         String[] temperatures = temps.split(" ");
         
+        //For all the temperatures find the closest to zero.
         for(String t : temperatures){
             int temp = Integer.parseInt(t);
             if(temp == min){
