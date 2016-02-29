@@ -32,6 +32,7 @@ class Solution {
         
         int k = 0;
         while(k < H){
+	    //Iterate first the columns and second the rows
             for(char c : characters){
                 int asciChar = (int)c;
                 if(64 < asciChar && asciChar < 91){
